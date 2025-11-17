@@ -1,4 +1,6 @@
 SparkSpin 🎉
+
+
 SparkSpin is an interactive web application that lets users generate personalized jokes, stories, quotes, and compliments, all in one platform. Users can enter their name to make content personal, and each generator offers multiple categories to ensure variety and creativity. With a responsive design, smooth animations, and the ability to save or copy favorites, SparkSpin provides a fun and engaging user experience while showcasing front-end development skills.
 
 🌟 Features
