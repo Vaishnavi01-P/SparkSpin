@@ -1,0 +1,106 @@
+/* Reset */
+* {margin:0;padding:0;box-sizing:border-box;}
+
+/* GLOBAL FONT */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER */
+header {text-align:center; margin:20px 0;}
+header h1 {
+  font-family: 'Fredoka One', cursive; /* Or Baloo 2, Righteous */
+  font-size: 3rem; /* make bigger for emphasis */
+  color: #ff4757;
+  letter-spacing: 2px; /* add space between letters */
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+
+header p {
+  font-size:1rem;
+  color:#333;
+}
+
+/* MAIN */
+main {
+  display:flex;
+  flex-direction:column;
+  width:90%;
+  max-width:900px;
+  gap:20px;
+}
+
+/* CONTROLS */
+.controls {
+  background: rgba(255,255,255,0.95);
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+input, select, button {
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor:pointer;
+  background:#ff6b6b;
+  color:white;
+  border:none;
+  transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background:#ff4757;
+}
+
+/* Tabs */
+.generator-tabs {display:flex; gap:10px;}
+.tab {background:#eee; color:#333; flex:1;}
+.tab.active {background:#ff6b6b; color:white;}
+
+/* DISPLAY */
+.display {display:flex; flex-direction:column; gap:20px;}
+
+#outputCard {
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  position:relative;
+  max-height:400px;
+  overflow-y:auto;
+  word-wrap:break-word;
+  font-size:1.1rem;
+  line-height:1.5;
+}
+
+#outputText {margin-bottom:10px;}
+.actions {display:flex; gap:10px;}
+
+/* FAVORITES */
+#favoritesContainer {
+  background: rgba(255,255,255,0.95);
+  border-radius:12px;
+  padding:15px;
+  max-height:200px;
+  overflow-y:auto;
+  font-size:0.95rem;
+}
+#favoritesList li {padding:5px; border-bottom:1px solid #ddd;}

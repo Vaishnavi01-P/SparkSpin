@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SparkSpin</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>🎲 SparkSpin</h1>
+<p>Your fun, creative, personalized content in one place!</p>
+</header>
+
+<main>
+<section class="controls">
+<input type="text" id="nameInput" placeholder="Enter your name (optional)">
+
+<div class="generator-tabs">
+<button class="tab active" data-gen="jokes">Jokes 😂</button>
+<button class="tab" data-gen="stories">Stories 📖</button>
+<button class="tab" data-gen="quotes">Quotes 💡</button>
+<button class="tab" data-gen="compliments">Compliments 🌸</button>
+</div>
+
+<select id="categorySelect"></select>
+<button id="generateBtn">Generate</button>
+</section>
+
+<section class="display">
+<div id="outputCard">
+<p id="outputText">Click "Generate" to get your content!</p>
+<div class="actions">
+<button id="copyBtn">Copy</button>
+<button id="saveBtn">Save</button>
+</div>
+</div>
+
+<div id="favoritesContainer">
+<h3>Favorites</h3>
+<ul id="favoritesList"></ul>
+</div>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
