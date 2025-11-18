@@ -64,6 +64,38 @@ const data = {
     `{name} had an ordinary day that turned extraordinary in unexpected ways. Morning coffee spilled on their favorite book, prompting a walk to clear the mind. At the park, {name} noticed a child helping an elderly person tie their shoes, which inspired a ripple of kindness around them. A conversation with a stranger led to a new friendship, and the sunset painted the sky with breathtaking colors. {name} realized that even in mundane moments, beauty and connection existed everywhere. Small acts of empathy, observation, and gratitude transformed the ordinary into a story worth remembering. By the end of the day, {name} felt content, inspired, and aware that life’s richness comes not from grand adventures but from the simple, meaningful moments that often go unnoticed.`
   ]
 },
+quotes: {
+  Motivational: [
+    `{name}, remember that every journey begins with a single step, even if that step feels uncertain or small. The world rewards persistence more than perfection, and your willingness to try already sets you apart. Challenges are not roadblocks but stepping stones that build strength, patience, and character. You don’t have to do everything today—just move forward one decision at a time. Even on days when your motivation feels low, trust the process. Growth takes time, and progress isn’t always visible, but every effort you make is shaping a stronger, wiser version of you. Keep going, {name}; your future self will thank you.`
+  ],
+  Positive: [
+    `{name}, life becomes brighter when you choose to see the good hidden inside every moment. Some days may feel heavy, but even small joys—a warm cup of tea, a kind message, a quiet sunset—can lift your heart more than you expect. You bring a special energy to the world simply by being yourself. Every moment you laugh, smile, or help someone creates ripples of positivity you may never see but others surely feel. The world is better with you in it, {name}, and brighter days are always closer than they seem.`
+  ],
+  Aesthetic: [
+    `There is a rare beauty, {name}, in the soft moments of life—the quiet mornings, gentle sunlight slipping through curtains, the stillness before the world wakes. Not everything needs to be loud or dramatic to matter. Sometimes the most meaningful parts of life are found in the spaces between—silent reflections, the warmth of a simple memory, the calm feeling of existing without rush. Like a painting made of light and shadow, your journey is filled with subtle, beautiful details that make it uniquely yours. Slow down and appreciate them; they are your personal poetry.`
+  ],
+  LifeLessons: [
+    `{name}, life will teach you through experiences—some gentle, some difficult, but all necessary. Not every person you meet will stay, but each one adds a lesson to your story. Growth often comes disguised as discomfort, and progress sometimes feels like chaos before clarity. Trust yourself even when things seem uncertain. You are learning, evolving, and becoming someone stronger with every passing day. Life is not about having everything figured out; it’s about understanding yourself a bit more with each step. Accept the lessons, honor your journey, and keep moving with courage, {name}.`
+  ],
+  Deep: [
+    `{name}, there is a universe inside you—made of thoughts, memories, emotions, dreams, and quiet hopes you haven’t spoken aloud. You are more complex than any words can describe and more powerful than you realize. Even on your weakest days, something within you continues to fight, and that strength is extraordinary. Life will not always be easy, but you carry resilience in your soul. Don’t underestimate the quiet battles you win every day. You are growing in ways you cannot yet see. Give yourself time. You are becoming someone remarkable.`
+  ],
+  Friendship: [
+    `{name}, true friendship isn’t measured by how often you talk but by the comfort you feel even after long silences. A real friend is someone who understands your unspoken words, stands beside you in difficult times, and celebrates your smallest victories. They remind you of your worth when you forget it yourself. Good friendships are rare, precious, and worth cherishing. If you have even one friend who listens, supports, and cares without judgment, you are incredibly fortunate. And if you are that kind of friend to others, then you are a gift in their lives too.`
+  ],
+  Success: [
+    `{name}, success is not defined by speed but by consistency. It isn’t a race against others—it’s a journey toward your own potential. Small achievements you make today accumulate into extraordinary results over time. There will be setbacks, delays, and moments of doubt, but none of these define you. What defines you is how you rise, how you improve, and how you keep going even when things get tough. Success grows quietly in the moments when no one is watching. Keep showing up, {name}. Your hard work is building a future you’ll be proud of.`
+  ],
+  Peace: [
+    `{name}, peace does not always arrive with silence; sometimes it comes with acceptance. Life won’t always be perfectly calm, but you can learn to be at peace even in the middle of uncertainty. When you stop forcing things to happen and instead trust the timing of your journey, you’ll feel a gentle lightness fill your heart. Let go of what you cannot control. Hold on to what brings clarity and comfort. And remember—you deserve a life that feels calm, balanced, and soft on your soul. Peace begins with small choices, and you’re capable of finding it.`
+  ],
+  Confidence: [
+    `{name}, confidence doesn’t mean you never doubt yourself—it means you choose to move forward despite the doubt. You are stronger, smarter, and more capable than you often give yourself credit for. Every challenge you’ve survived so far proves that you can handle whatever comes next. Stand tall, trust your abilities, and speak with a heart that knows its worth. You don’t need permission to be great—you already carry the potential within you. Walk boldly, {name}; your presence is more powerful than you realize.`
+  ],
+  Wisdom: [
+    `{name}, wisdom comes from experiencing life fully—its joys, struggles, successes, and disappointments. Every decision you make adds another layer to your understanding of the world. You don’t need all the answers right now. What matters is that you stay curious, open-minded, and willing to grow. Life will guide you in unexpected ways, and with time, everything will make sense. Trust the path you are on. Every day, you are becoming wiser, stronger, and more aligned with who you’re meant to be.`
+  ]
+},
 
   compliments: {
     Fun: [
@@ -180,3 +212,4 @@ function displayFavorites(){
   });
 }
 displayFavorites();
+
